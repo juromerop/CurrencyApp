@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RestEngine {
     companion object {
-        private const val URL = "https://api.exchangeratesapi.io/v1/"
+        private const val URL = "https://api.fastforex.io"
 
         private fun getInstance(): Retrofit {
             return Retrofit.Builder()
